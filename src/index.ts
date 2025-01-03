@@ -79,5 +79,5 @@ let animeSearchInput = async () =>
 }
 
 animeSearchInput();
-// showAllAnimes();
+showAllAnimes();
 getInformation();

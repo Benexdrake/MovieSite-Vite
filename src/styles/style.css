@@ -14,12 +14,17 @@
 
 body {
   background-color: var(--color2);
-  display: flex;
 }
 
 h4 {
   color: var(--color4);
   padding-left: 4px;
+}
+
+.main {
+  display: flex;
+  margin: auto;
+  width: fit-content;
 }
 
 
@@ -156,6 +161,7 @@ border-radius: 4px;
   transform: translate(-50%,-50%);
   z-index: 10;
   border-radius: 8px;
+  display: none;
 }
 
 #anime-modal h1 {
