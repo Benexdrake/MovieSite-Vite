@@ -8,7 +8,8 @@ import { Info } from "./types/anime";
 
 let getInformation = async () =>
 {
-    let infos = await getAnimeInfos();
+    let infos = await getAnimeInfos() as {publishers:string[], tags:Info[]};
+
     createGenres(infos.tags);
     createPublishers(infos.publishers)
 }
