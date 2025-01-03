@@ -1,4 +1,4 @@
-import { Anime, Info } from "./types/anime";
+import { Anime} from "./types/anime";
 
 const url = 'https://scraped-api.vercel.app/api/animes';
 
