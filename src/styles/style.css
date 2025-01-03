@@ -146,6 +146,36 @@ border-radius: 4px;
   background-size: cover;
 }
 
+#anime-modal {
+  background-color: var(--color1);
+  position: absolute;
+  height: 500px;
+  width: 800px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 10;
+  border-radius: 8px;
+}
+
+#anime-modal h1 {
+  color: var(--color4);
+  text-align: center;
+}
+
+#anime-modal img {
+  width: 300px;
+  padding: 20px;
+}
+
+
+
+.anime-description {
+  background-color: var(--color2);
+  height: 200px;
+  width: 100%;
+}
+
 @media only screen and (max-width: 1400px) {
   #right {
       min-width: 1050px;
@@ -165,3 +195,4 @@ border-radius: 4px;
       grid-template-columns: repeat(5,1fr);
   }
 }
+
