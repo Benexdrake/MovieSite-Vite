@@ -1,5 +1,5 @@
 import { getAnimeInfos} from "./anime_service";
-import { showAllAnimes, showAnimesByTitle, showAnimesByGenre, showAnimesByPublisher, showAnimesByRating } from "./anime";
+import { showAllAnimes, showAnimesByTitle, showAnimesByGenre } from "./anime";
 import { task } from "./libs/helper";
 
 

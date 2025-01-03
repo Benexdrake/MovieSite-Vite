@@ -1,3 +1,3 @@
 export let task = async (callback:any) => {
-    await new Promise((x:any) => setTimeout(callback,0))
+    await new Promise(() => setTimeout(callback,0))
 }

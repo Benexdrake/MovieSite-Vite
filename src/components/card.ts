@@ -1,4 +1,4 @@
-export let cardBlock = async (anime) => 
+export let cardBlock = async (anime:any) => 
 {
     let card = document.createElement('div')
     card.className = 'card';
