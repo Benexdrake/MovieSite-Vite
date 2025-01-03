@@ -1,6 +1,7 @@
 import { getAnimeInfos} from "./anime_service";
 import { showAllAnimes, showAnimesByTitle, showAnimesByGenre } from "./anime";
 import { task } from "./libs/helper";
+import { Info } from "./types/anime";
 
 
 // let animesByTitle = await getAnimesByTitle('dragon');
@@ -12,7 +13,7 @@ let getInformation = async () =>
     createPublishers(infos.publishers)
 }
 
-let createGenres = async (genres:any) =>
+let createGenres = async (genres:Info[]) =>
 {
     let g = document.getElementById('genres');
 
